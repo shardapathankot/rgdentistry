@@ -1,0 +1,246 @@
+/*
+Theme Name: Hello Elementor Child
+Author: 
+Description: Your description goes here
+Version: 1.0
+Template: hello-elementor
+
+This is the child theme for Hello Elementor theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+
+/* custom font */
+body{
+    font-family: proxima nova light !important;
+    }
+    h1,h2,h3,h4,h5,h6,h7{
+    font-family: proxima nova light !important;
+    }
+    p{
+        font-family: proxima nova light !important;
+    }
+    div{
+        font-family: proxima nova light !important;
+    }
+    a{
+        font-family: proxima nova light !important;
+    }
+    span{
+        font-family: proxima nova light !important;
+    }
+    li{
+        font-family: proxima nova light !important;
+    }
+    ul{
+        font-family: proxima nova light !important;
+    }
+    /* Custom font */
+.service_box .services {
+    display: grid;
+    gap: 20px 25px;
+    width: 100%;
+    max-width: min(100%, 1350px);
+    margin: 0 auto;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: start;
+    align-content: start;
+    grid-auto-flow: row;
+}
+
+.service_box .service {
+    background-color: #00000000;
+    padding: 2em 2em 2em 2em;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #CBF3F0;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: left;
+}
+
+.service_box .service:hover {
+    background-color: #00000000;
+    padding: 2em 2em 2em 2em;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #2EC4B6;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.service_box .service a img {
+    width: 72px;
+}
+
+.service_box .service .title {
+    margin: 5% 0% 5% 0%;
+    padding: 0px 0px 0px 0px;
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+.service_box .service .description {
+    color: #4D4D4D;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 0% 0% 5% 0%;
+}
+
+.service_box .service .read-more-button {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Inter';
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1em;
+    color: #000000;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.service_box .service:hover .read-more-button {
+    color: #2ec4b6;
+}
+
+.service_box .service:first-child {
+    border: none;
+    padding: 0 0 0 0;
+    margin: 0% 4% 0% 0%;
+}
+
+.service_box .service:first-child:hover {
+    box-shadow: none;
+}
+
+.service_box .service:first-child .read-more-button {
+    display: none;
+}
+
+.service_box .service:first-child .title {
+    color: #2ec4b6;
+    font-family: "Inter";
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 0 0 20px;
+}
+
+.service_box .service:first-child .description {
+    text-align: left;
+    color: var(--e-global-color-e7b7630);
+    font-family: var(--e-global-typography-9a7f9de-font-family), Sans-serif;
+    font-size: var(--e-global-typography-9a7f9de-font-size);
+    font-weight: var(--e-global-typography-9a7f9de-font-weight);
+    line-height: var(--e-global-typography-9a7f9de-line-height);
+}
+
+.service_box .service:first-child .description strong {
+    display: block;
+    color: var(--e-global-color-3ffa44a);
+    font-family: var(--e-global-typography-d362b31-font-family), Sans-serif;
+    font-size: var(--e-global-typography-d362b31-font-size);
+    font-weight: var(--e-global-typography-d362b31-font-weight);
+    text-transform: var(--e-global-typography-d362b31-text-transform);
+    line-height: var(--e-global-typography-d362b31-line-height);
+    margin-bottom: 20px;
+}
+
+.service_box .service:first-child .description a {
+    margin-block-start: 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.service_box .service:first-child .description a svg {
+    height: 18px;
+    margin-left: 10px;
+}
+.doctors {
+    display: grid;
+    gap: 20px 25px;
+    width: 100%;
+    max-width: min(100%, 1350px);
+    margin: 0 auto;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: start;
+    align-content: start;
+    grid-auto-flow: row;
+}
+.doctors .doctor {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #CBF3F0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0% 4% 0% 0%;
+    --e-column-margin-right: 4%;
+    --e-column-margin-left: 0%;
+    padding: 0em 0em 2em 0em;
+}
+.doctors .doctor a img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+}
+.doctors .doctor .name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 3% 0px 5px 0px;
+}
+.doctors .doctor .designation {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.doctors .doctor .read-more-button {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Inter';
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1em;
+    color: #000000;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    text-align: center;
+    display: block;
+}
+
+@media screen and (max-width:580px) {
+    .service_box .services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .doctors {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .doctors .doctor {
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,803 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Remedicare - Dentist & Dental Clinic Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Detail",
+            "screenshot": "screenshots\/service-detail.jpg",
+            "source": "templates\/service-detail.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/service-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog & Article",
+            "screenshot": "screenshots\/blog-article.jpg",
+            "source": "templates\/blog-article.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/blog-article\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Remedicare-Header",
+            "screenshot": "screenshots\/remedicare-header.jpg",
+            "source": "templates\/remedicare-header.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/remedicare-header\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/single-post\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Error 404",
+            "screenshot": "screenshots\/error-404.jpg",
+            "source": "templates\/error-404.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/error-404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Doctor",
+            "screenshot": "screenshots\/our-doctor.jpg",
+            "source": "templates\/our-doctor.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/our-doctor\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Appointment",
+            "screenshot": "screenshots\/appointment.jpg",
+            "source": "templates\/appointment.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/appointment\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing Plans",
+            "screenshot": "screenshots\/pricing-plans.jpg",
+            "source": "templates\/pricing-plans.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/pricing-plans\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Remedicare-Footer",
+            "screenshot": "screenshots\/remedicare-footer.jpg",
+            "source": "templates\/remedicare-footer.json",
+            "preview_url": "https:\/\/rykit.rometheme.pro\/remedicare\/template-kit\/remedicare-footer\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.7.2",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.7.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "MetForm",
+            "version": "2.2.1",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "teshero5.jpg",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/teshero5-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 229403,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "tesabout3.jpg",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/tesabout3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 65120,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "tesicon11.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/tesicon11.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 7979,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "tesicon2.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/tesicon2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 6611,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "tesicon4.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/tesicon4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 8139,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "tesicon5.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/tesicon5.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 8426,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "tesicon6.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/tesicon6.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 8648,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "tesicon8.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/tesicon8.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 10582,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "tes-services.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/tes-services.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/blog-article.json",
+                    "name": "Blog & Article"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/our-doctor.json",
+                    "name": "Our Doctor"
+                }
+            ],
+            "filesize": 302712,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "chooseus1.jpg",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/chooseus1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 188896,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "testesti1.jpg",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/testesti1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/pricing-plans.json",
+                    "name": "Pricing Plans"
+                }
+            ],
+            "filesize": 220033,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "testimonial-2.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/testimonial-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plans.json",
+                    "name": "Pricing Plans"
+                }
+            ],
+            "filesize": 108909,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "doctor4.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/doctor4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-doctor.json",
+                    "name": "Our Doctor"
+                }
+            ],
+            "filesize": 281818,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "doctor6.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/doctor6.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-doctor.json",
+                    "name": "Our Doctor"
+                }
+            ],
+            "filesize": 373821,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "doctor555.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/doctor555.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-doctor.json",
+                    "name": "Our Doctor"
+                }
+            ],
+            "filesize": 334244,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "doctor22.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/doctor22.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-doctor.json",
+                    "name": "Our Doctor"
+                }
+            ],
+            "filesize": 363098,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "Untitled-2.jpg",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/Untitled-2-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/blog-article.json",
+                    "name": "Blog & Article"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/our-doctor.json",
+                    "name": "Our Doctor"
+                },
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                },
+                {
+                    "source": "templates\/pricing-plans.json",
+                    "name": "Pricing Plans"
+                }
+            ],
+            "filesize": 217765,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "blog11.jpg",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/blog11-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 177980,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "logo-Header.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/logo-Header.png",
+            "templates": [
+                {
+                    "source": "templates\/remedicare-header.json",
+                    "name": "Remedicare-Header"
+                },
+                {
+                    "source": "templates\/remedicare-footer.json",
+                    "name": "Remedicare-Footer"
+                }
+            ],
+            "filesize": 6617,
+            "dimensions": [
+                350,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "blog3.jpg",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/blog3-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 211142,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "4041.png",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/09\/4041-800x422.png",
+            "templates": [
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 138086,
+            "dimensions": [
+                1920,
+                1013
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        },
+        {
+            "filename": "faq.jpg",
+            "thumbnail_url": "http:\/\/rykit.rometheme.pro\/remedicare\/wp-content\/uploads\/sites\/17\/2022\/08\/faq.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-doctor.json",
+                    "name": "Our Doctor"
+                },
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                }
+            ],
+            "filesize": 53900,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/BWGMVD4UJL"
+        }
+    ]
+}
